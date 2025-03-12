@@ -1,0 +1,15 @@
+{
+    "train":
+    {
+        "model": "MSIGN",
+        "data_root" : "./data",
+        "save_dir" : "./model",
+        "graph_type" : "Atom_Graph2",
+        "epochs" : 300,
+        "batch_size" : 128,
+        "early_stop_epoch" : 30,
+        "repeat" : 3,
+        "save_model": true, 
+        "create" : true
+    }
+}
